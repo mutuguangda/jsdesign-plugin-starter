@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="mx-50px text-[#800000]">
     Hello World
   </div>
 </template>

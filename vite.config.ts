@@ -19,7 +19,9 @@ export default defineConfig({
       },
     },
   },
-  server: {
-    open: '/ui.html',
-  },
+  server: (() => {
+    return {
+      open: '/ui.html',
+    }
+  })(),
 })
