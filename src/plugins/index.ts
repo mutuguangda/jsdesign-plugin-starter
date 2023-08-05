@@ -11,13 +11,7 @@ export default function (): Plugin[] {
       configureServer(server) {
         server.httpServer?.once('listening', () => {
           const buildOptions = server.config.inlineConfig
-          // buildOptions.plugins ??= []
-          // buildOptions.plugins.push({
-          //   name: ':reload',
-          //   handleHotUpdate() {
-          //     build(buildOptions)
-          //   },
-          // })
+          buildOptions.plugins ??= []
           build(buildOptions)
         })
       },

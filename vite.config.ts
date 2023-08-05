@@ -11,6 +11,16 @@ export default defineConfig({
     UnoCSS(),
     viteSingleFile(),
     jsdesign(),
+    {
+      name: ':reload',
+      handleHotUpdate({ file, server }) {
+        // server.restart()
+        if (/\.vue|\.ts/.test(file))
+          server.restart()
+
+        return []
+      },
+    },
   ],
   build: {
     rollupOptions: {
