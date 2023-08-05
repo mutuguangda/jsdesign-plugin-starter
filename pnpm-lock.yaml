@@ -13,6 +13,9 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.38.6
     version: 0.38.6(eslint@8.40.0)(typescript@5.0.4)
+  '@jsdesigndeveloper/plugin-typings':
+    specifier: ^1.0.11
+    version: 1.0.11
   '@types/node':
     specifier: ^20.4.8
     version: 20.4.8
@@ -504,6 +507,10 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@jsdesigndeveloper/plugin-typings@1.0.11:
+    resolution: {integrity: sha512-OVD26fxhRZ+ti9VT/3Fjbo0TqxfM44rd3MIjnulsVKDZRgdD1vY2IPDh5Z4wJVuzOERaM3JHoAGfl3dKngNp/A==}
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:

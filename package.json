@@ -1,5 +1,6 @@
 {
   "name": "js-design-plugin-starter",
+  "id": "1125674739431154178",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.6",
+    "@jsdesigndeveloper/plugin-typings": "^1.0.11",
     "@types/node": "^20.4.8",
     "@unocss/eslint-config": "^0.51.13",
     "@vitejs/plugin-vue": "^4.1.0",
