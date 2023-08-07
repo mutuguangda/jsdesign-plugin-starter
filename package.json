@@ -1,5 +1,5 @@
 {
-  "name": "js-design-plugin-starter",
+  "name": "jsdesign-plugin-starter",
   "id": "1125674739431154178",
   "type": "module",
   "version": "0.0.0",
@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

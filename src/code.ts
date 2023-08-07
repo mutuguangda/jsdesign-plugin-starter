@@ -19,7 +19,7 @@ function create(count: number, color: RGB) {
   frame.fills = []
   for (let i = 0; i < count; i++) {
     const star = jsDesign.createStar()
-    star.name = '星形'
+    star.name = '星形1'
     star.pointCount = 5
     star.fills = [{ type: 'SOLID', color }]
     frame.appendChild(star)
